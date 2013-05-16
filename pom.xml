@@ -34,5 +34,6 @@
 		<versions-plugin.version>2.0</versions-plugin.version>
 	</properties>
 	<modules>
+		<module>java-project</module>
 	</modules>
 </project>
