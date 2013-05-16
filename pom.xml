@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>net.trajano</groupId>
+		<artifactId>trajano</artifactId>
+		<version>4-SNAPSHOT</version>
+	</parent>
+	<groupId>net.trajano.project</groupId>
+	<artifactId>trajano-project</artifactId>
+	<version>1-SNAPSHOT</version>
+	<name>Trajano project</name>
+	<url>http://site.trajano.net/trajano-project</url>
+	<description>This provides archetypes and project POMs that define version levels of artifacts that are used on an organisation level.</description>
+	<packaging>pom</packaging>
+	<modules>
+	</modules>
+</project>
