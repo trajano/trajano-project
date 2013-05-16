@@ -35,5 +35,6 @@
 	</properties>
 	<modules>
 		<module>java-project</module>
+		<module>javaee-project</module>
 	</modules>
 </project>

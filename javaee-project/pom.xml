@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.trajano.project</groupId>
+		<artifactId>java-project</artifactId>
+		<version>1-SNAPSHOT</version>
+		<relativePath>../java-project</relativePath>
+	</parent>
+
+	<artifactId>javaee-project</artifactId>
+	<name>Java EE Project</name>
+	<description>Defines the plug-ins and versions used for Java EE 6 development in the organisation. Extends java-project.</description>
+	<packaging>pom</packaging>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.1</version>
+					<!-- Target JDK6 to provide the best compatibility. -->
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.jboss.spec</groupId>
+			<artifactId>jboss-javaee-6.0</artifactId>
+			<version>1.0.0.Final</version>
+			<type>pom</type>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
