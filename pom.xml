@@ -20,6 +20,7 @@
 	</scm>
 	<properties>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<coding-standards.version>1.0.0</coding-standards.version>
 		<android-plugin.version>4.1.1.4</android-plugin.version>
 		<checkstyle-plugin.version>2.10</checkstyle-plugin.version>
