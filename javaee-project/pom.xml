@@ -12,7 +12,7 @@
 
 	<artifactId>javaee-project</artifactId>
 	<name>Java EE Project</name>
-	<description>Defines the plug-ins and versions used for Java EE 6 development in the organisation. Extends java-project.</description>
+	<description>Defines the plug-ins and versions used for Java EE 7 development in the organisation. Extends java-project.</description>
 	<packaging>pom</packaging>
 
 	<build>
@@ -21,10 +21,10 @@
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.1</version>
-					<!-- Target JDK6 to provide the best compatibility. -->
+					<!-- Target JDK7 to provide the best compatibility. -->
 					<configuration>
-						<source>1.6</source>
-						<target>1.6</target>
+						<source>1.7</source>
+						<target>1.7</target>
 					</configuration>
 				</plugin>
 			</plugins>
@@ -32,10 +32,9 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>org.jboss.spec</groupId>
-			<artifactId>jboss-javaee-6.0</artifactId>
-			<version>1.0.0.Final</version>
-			<type>pom</type>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
